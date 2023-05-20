@@ -1,7 +1,15 @@
 ## fullstack-assessment
 Backend API
 
-## Run commands
+## Getting started
+
+First, install node modules by running:
+```
+npm install
+```
+
+Then,
+
 - To run in development mode
 ```
 npm run dev
