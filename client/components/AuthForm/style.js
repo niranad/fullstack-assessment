@@ -1,17 +1,30 @@
+import flex from '../../util/flex';
+
 export default {
-  formContainer: {},
+  formContainer: {
+    ...flex('column', 'center', 'center'),
 
-  formWrap: {},
+  },
 
+  formWrap: {
+    ...flex('column', 'center', 'center', '1rem'),
+    
+  },
+  
   formHeader: {},
-
-  form: {},
+  
+  form: {
+    ...flex('column', 'center', 'center', '1rem'),
+    
+  },
 
   input: {},
 
   formControl: {},
 
-  checkbox: {},
+  checkbox: {
+    ...flex('row', 'flex-start', 'center', '-1rem')
+  },
 
   submit: {}
 }

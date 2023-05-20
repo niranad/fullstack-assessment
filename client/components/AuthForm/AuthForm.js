@@ -95,9 +95,17 @@ export default function AuthForm({ authType }) {
                     inputProps={{ 'aria-label': 'Accept terms and conditions' }}
                   />
                 }
-                label='I accept the'
               />
-              <Typography component={Link}>terms & conditions</Typography>
+              <Typography variant='subtitle2'>
+                I accept the {' '}
+                <Typography
+                  variant='subtitle2'
+                  component={Link}
+                  href='/terms_conditions'
+                >
+                  terms & conditions
+                </Typography>
+              </Typography>
             </FormControl>
           ) : (
             <FormControl>
@@ -113,7 +121,12 @@ export default function AuthForm({ authType }) {
               />
             </FormControl>
           )}
-          <Button sx={style.submit} type='submit' onClick={handleSubmit}>
+          <Button
+            variant='outlined'
+            sx={style.submit}
+            type='submit'
+            onClick={handleSubmit}
+          >
             {authType}
           </Button>
         </Box>
