@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "set NODE_ENV=development && nodemon index.js",
     "test": "mocha",
-    "production": "set NODE_ENV=production && node index.js"
+    "prod": "set NODE_ENV=production && node index.js"
   },
   "author": "Adeniran John Olukanni",
   "license": "UNLICENSED",
