@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Login page
 
-Access the login page via http://localhost:3000/signin
+Access the login page via http://localhost:3000/login
 
 ## Signup page
 
